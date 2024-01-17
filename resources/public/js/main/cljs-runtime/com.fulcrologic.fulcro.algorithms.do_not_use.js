@@ -8,9 +8,9 @@ com.fulcrologic.fulcro.algorithms.do_not_use.atom_QMARK_ = (function com$fulcrol
 return (a instanceof cljs.core.Atom);
 });
 com.fulcrologic.fulcro.algorithms.do_not_use.join_entry = (function com$fulcrologic$fulcro$algorithms$do_not_use$join_entry(expr){
-var vec__58142 = ((cljs.core.seq_QMARK_(expr))?cljs.core.ffirst(expr):cljs.core.first(expr));
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58142,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58142,(1),null);
+var vec__58079 = ((cljs.core.seq_QMARK_(expr))?cljs.core.ffirst(expr):cljs.core.first(expr));
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58079,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58079,(1),null);
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [((cljs.core.list_QMARK_(k))?cljs.core.first(k):k),v], null);
 });
 com.fulcrologic.fulcro.algorithms.do_not_use.join_QMARK_ = (function com$fulcrologic$fulcro$algorithms$do_not_use$join_QMARK_(x){
@@ -21,11 +21,11 @@ com.fulcrologic.fulcro.algorithms.do_not_use.recursion_QMARK_ = (function com$fu
 return ((cljs.core.symbol_identical_QMARK_(new cljs.core.Symbol(null,"...","...",-1926939749,null),x)) || (typeof x === 'number'));
 });
 com.fulcrologic.fulcro.algorithms.do_not_use.union_QMARK_ = (function com$fulcrologic$fulcro$algorithms$do_not_use$union_QMARK_(expr){
-var expr__$1 = (function (){var G__58152 = expr;
+var expr__$1 = (function (){var G__58091 = expr;
 if(cljs.core.seq_QMARK_(expr)){
-return cljs.core.first(G__58152);
+return cljs.core.first(G__58091);
 } else {
-return G__58152;
+return G__58091;
 }
 })();
 return ((cljs.core.map_QMARK_(expr__$1)) && (cljs.core.map_QMARK_(cljs.core.second(cljs.core.first(expr__$1)))));
@@ -40,8 +40,8 @@ return cljs.core.ffirst(expr);
 }
 } else {
 if(cljs.core.seq_QMARK_(expr)){
-var G__58153 = cljs.core.first(expr);
-return (com.fulcrologic.fulcro.algorithms.do_not_use.join_key.cljs$core$IFn$_invoke$arity$1 ? com.fulcrologic.fulcro.algorithms.do_not_use.join_key.cljs$core$IFn$_invoke$arity$1(G__58153) : com.fulcrologic.fulcro.algorithms.do_not_use.join_key.call(null,G__58153));
+var G__58095 = cljs.core.first(expr);
+return (com.fulcrologic.fulcro.algorithms.do_not_use.join_key.cljs$core$IFn$_invoke$arity$1 ? com.fulcrologic.fulcro.algorithms.do_not_use.join_key.cljs$core$IFn$_invoke$arity$1(G__58095) : com.fulcrologic.fulcro.algorithms.do_not_use.join_key.call(null,G__58095));
 } else {
 return expr;
 
@@ -62,14 +62,14 @@ return (new Date());
 });
 com.fulcrologic.fulcro.algorithms.do_not_use.deep_merge = (function com$fulcrologic$fulcro$algorithms$do_not_use$deep_merge(var_args){
 var args__4736__auto__ = [];
-var len__4730__auto___58174 = arguments.length;
-var i__4731__auto___58175 = (0);
+var len__4730__auto___58118 = arguments.length;
+var i__4731__auto___58119 = (0);
 while(true){
-if((i__4731__auto___58175 < len__4730__auto___58174)){
-args__4736__auto__.push((arguments[i__4731__auto___58175]));
+if((i__4731__auto___58119 < len__4730__auto___58118)){
+args__4736__auto__.push((arguments[i__4731__auto___58119]));
 
-var G__58176 = (i__4731__auto___58175 + (1));
-i__4731__auto___58175 = G__58176;
+var G__58120 = (i__4731__auto___58119 + (1));
+i__4731__auto___58119 = G__58120;
 continue;
 } else {
 }
@@ -92,9 +92,9 @@ return cljs.core.last(xs);
 com.fulcrologic.fulcro.algorithms.do_not_use.deep_merge.cljs$lang$maxFixedArity = (0);
 
 /** @this {Function} */
-com.fulcrologic.fulcro.algorithms.do_not_use.deep_merge.cljs$lang$applyTo = (function (seq58155){
+com.fulcrologic.fulcro.algorithms.do_not_use.deep_merge.cljs$lang$applyTo = (function (seq58109){
 var self__4718__auto__ = this;
-return self__4718__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq58155));
+return self__4718__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq58109));
 });
 
 com.fulcrologic.fulcro.algorithms.do_not_use.conform_BANG_ = (function com$fulcrologic$fulcro$algorithms$do_not_use$conform_BANG_(spec,x){

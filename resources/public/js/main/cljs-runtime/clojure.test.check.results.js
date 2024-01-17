@@ -52,42 +52,42 @@ throw cljs.core.missing_protocol("Result.result-data",result);
 
 goog.object.set(clojure.test.check.results.Result,"_",true);
 
-var G__44795_44816 = clojure.test.check.results.pass_QMARK_;
-var G__44796_44817 = "_";
-var G__44797_44818 = ((function (G__44795_44816,G__44796_44817){
+var G__44938_44955 = clojure.test.check.results.pass_QMARK_;
+var G__44939_44956 = "_";
+var G__44940_44957 = ((function (G__44938_44955,G__44939_44956){
 return (function (this$){
 return cljs.core.boolean$(this$);
-});})(G__44795_44816,G__44796_44817))
+});})(G__44938_44955,G__44939_44956))
 ;
-goog.object.set(G__44795_44816,G__44796_44817,G__44797_44818);
+goog.object.set(G__44938_44955,G__44939_44956,G__44940_44957);
 
-var G__44798_44824 = clojure.test.check.results.result_data;
-var G__44799_44825 = "_";
-var G__44800_44826 = ((function (G__44798_44824,G__44799_44825){
+var G__44941_44959 = clojure.test.check.results.result_data;
+var G__44942_44960 = "_";
+var G__44943_44961 = ((function (G__44941_44959,G__44942_44960){
 return (function (this$){
 return null;
-});})(G__44798_44824,G__44799_44825))
+});})(G__44941_44959,G__44942_44960))
 ;
-goog.object.set(G__44798_44824,G__44799_44825,G__44800_44826);
+goog.object.set(G__44941_44959,G__44942_44960,G__44943_44961);
 
 goog.object.set(clojure.test.check.results.Result,"null",true);
 
-var G__44802_44830 = clojure.test.check.results.pass_QMARK_;
-var G__44803_44831 = "null";
-var G__44804_44832 = ((function (G__44802_44830,G__44803_44831){
+var G__44944_44964 = clojure.test.check.results.pass_QMARK_;
+var G__44945_44965 = "null";
+var G__44946_44966 = ((function (G__44944_44964,G__44945_44965){
 return (function (this$){
 return false;
-});})(G__44802_44830,G__44803_44831))
+});})(G__44944_44964,G__44945_44965))
 ;
-goog.object.set(G__44802_44830,G__44803_44831,G__44804_44832);
+goog.object.set(G__44944_44964,G__44945_44965,G__44946_44966);
 
-var G__44805_44834 = clojure.test.check.results.result_data;
-var G__44806_44835 = "null";
-var G__44807_44836 = ((function (G__44805_44834,G__44806_44835){
+var G__44947_44967 = clojure.test.check.results.result_data;
+var G__44948_44968 = "null";
+var G__44949_44969 = ((function (G__44947_44967,G__44948_44968){
 return (function (this$){
 return null;
-});})(G__44805_44834,G__44806_44835))
+});})(G__44947_44967,G__44948_44968))
 ;
-goog.object.set(G__44805_44834,G__44806_44835,G__44807_44836);
+goog.object.set(G__44947_44967,G__44948_44968,G__44949_44969);
 
 //# sourceMappingURL=clojure.test.check.results.js.map

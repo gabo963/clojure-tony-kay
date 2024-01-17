@@ -84,10 +84,10 @@ return (new com.fulcrologic.fulcro.inspect.transit.DefaultHandler());
 });
 
 com.fulcrologic.fulcro.inspect.transit.write_handlers = cljs.core.PersistentArrayMap.createAsIfByAssoc([cljs.core.ExceptionInfo,(new com.fulcrologic.fulcro.inspect.transit.ErrorHandler()),"default",(new com.fulcrologic.fulcro.inspect.transit.DefaultHandler())]);
-com.fulcrologic.fulcro.inspect.transit.read_handlers = new cljs.core.PersistentArrayMap(null, 1, ["js-error",(function (p__51846){
-var vec__51847 = p__51846;
-var msg = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__51847,(0),null);
-var data = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__51847,(1),null);
+com.fulcrologic.fulcro.inspect.transit.read_handlers = new cljs.core.PersistentArrayMap(null, 1, ["js-error",(function (p__50543){
+var vec__50544 = p__50543;
+var msg = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__50544,(0),null);
+var data = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__50544,(1),null);
 return cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(msg,data);
 })], null);
 com.fulcrologic.fulcro.inspect.transit.read = (function com$fulcrologic$fulcro$inspect$transit$read(str){

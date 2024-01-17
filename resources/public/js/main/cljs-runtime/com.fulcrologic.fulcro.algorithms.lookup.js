@@ -29,11 +29,11 @@ goog.require('taoensso.timbre');
  *   Returns nil if the algorithm is currently undefined.
  *   
  */
-com.fulcrologic.fulcro.algorithms.lookup.app_algorithm = (function com$fulcrologic$fulcro$algorithms$lookup$app_algorithm(p__51738,k){
-var map__51740 = p__51738;
-var map__51740__$1 = (((((!((map__51740 == null))))?(((((map__51740.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__51740.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__51740):map__51740);
-var app__$1 = map__51740__$1;
-var algorithms = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51740__$1,new cljs.core.Keyword("com.fulcrologic.fulcro.application","algorithms","com.fulcrologic.fulcro.application/algorithms",-397334538));
+com.fulcrologic.fulcro.algorithms.lookup.app_algorithm = (function com$fulcrologic$fulcro$algorithms$lookup$app_algorithm(p__50458,k){
+var map__50459 = p__50458;
+var map__50459__$1 = (((((!((map__50459 == null))))?(((((map__50459.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__50459.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__50459):map__50459);
+var app__$1 = map__50459__$1;
+var algorithms = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50459__$1,new cljs.core.Keyword("com.fulcrologic.fulcro.application","algorithms","com.fulcrologic.fulcro.application/algorithms",-397334538));
 var temp__5804__auto__ = ((((typeof k === 'string') || ((k instanceof cljs.core.Keyword)) || ((k instanceof cljs.core.Symbol))))?cljs.core.keyword.cljs$core$IFn$_invoke$arity$2("com.fulcrologic.fulcro.algorithm",cljs.core.name(k)):null);
 if(cljs.core.truth_(temp__5804__auto__)){
 var nm = temp__5804__auto__;

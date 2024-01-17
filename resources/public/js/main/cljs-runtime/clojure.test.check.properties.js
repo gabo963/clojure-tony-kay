@@ -36,18 +36,18 @@ var this__4385__auto____$1 = this;
 return this__4385__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__4386__auto__,null);
 });
 
-clojure.test.check.properties.ErrorResult.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4387__auto__,k45437,else__4388__auto__){
+clojure.test.check.properties.ErrorResult.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4387__auto__,k45499,else__4388__auto__){
 var self__ = this;
 var this__4387__auto____$1 = this;
-var G__45441 = k45437;
-var G__45441__$1 = (((G__45441 instanceof cljs.core.Keyword))?G__45441.fqn:null);
-switch (G__45441__$1) {
+var G__45504 = k45499;
+var G__45504__$1 = (((G__45504 instanceof cljs.core.Keyword))?G__45504.fqn:null);
+switch (G__45504__$1) {
 case "error":
 return self__.error;
 
 break;
 default:
-return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k45437,else__4388__auto__);
+return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k45499,else__4388__auto__);
 
 }
 });
@@ -56,10 +56,10 @@ clojure.test.check.properties.ErrorResult.prototype.cljs$core$IKVReduce$_kv_redu
 var self__ = this;
 var this__4404__auto____$1 = this;
 return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(((function (this__4404__auto____$1){
-return (function (ret__4407__auto__,p__45442){
-var vec__45443 = p__45442;
-var k__4408__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45443,(0),null);
-var v__4409__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45443,(1),null);
+return (function (ret__4407__auto__,p__45508){
+var vec__45509 = p__45508;
+var k__4408__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45509,(0),null);
+var v__4409__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45509,(1),null);
 return (f__4405__auto__.cljs$core$IFn$_invoke$arity$3 ? f__4405__auto__.cljs$core$IFn$_invoke$arity$3(ret__4407__auto__,k__4408__auto__,v__4409__auto__) : f__4405__auto__.call(null,ret__4407__auto__,k__4408__auto__,v__4409__auto__));
 });})(this__4404__auto____$1))
 ,init__4406__auto__,this__4404__auto____$1);
@@ -76,10 +76,10 @@ return cljs.core.pr_sequential_writer(writer__4400__auto__,cljs.core.pr_writer,"
 return cljs.core.pr_sequential_writer(writer__4400__auto__,pr_pair__4402__auto__,"#clojure.test.check.properties.ErrorResult{",", ","}",opts__4401__auto__,cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"error","error",-978969032),self__.error],null))], null),self__.__extmap));
 });
 
-clojure.test.check.properties.ErrorResult.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__45436){
+clojure.test.check.properties.ErrorResult.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__45498){
 var self__ = this;
-var G__45436__$1 = this;
-return (new cljs.core.RecordIter((0),G__45436__$1,1,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"error","error",-978969032)], null),(cljs.core.truth_(self__.__extmap)?cljs.core._iterator(self__.__extmap):cljs.core.nil_iter())));
+var G__45498__$1 = this;
+return (new cljs.core.RecordIter((0),G__45498__$1,1,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"error","error",-978969032)], null),(cljs.core.truth_(self__.__extmap)?cljs.core._iterator(self__.__extmap):cljs.core.nil_iter())));
 });
 
 clojure.test.check.properties.ErrorResult.prototype.cljs$core$IMeta$_meta$arity$1 = (function (this__4383__auto__){
@@ -107,12 +107,12 @@ var h__4243__auto__ = self__.__hash;
 if((!((h__4243__auto__ == null)))){
 return h__4243__auto__;
 } else {
-var h__4243__auto____$1 = (function (){var fexpr__45447 = ((function (h__4243__auto__,this__4381__auto____$1){
+var h__4243__auto____$1 = (function (){var fexpr__45515 = ((function (h__4243__auto__,this__4381__auto____$1){
 return (function (coll__4382__auto__){
 return (-12654282 ^ cljs.core.hash_unordered_coll(coll__4382__auto__));
 });})(h__4243__auto__,this__4381__auto____$1))
 ;
-return fexpr__45447(this__4381__auto____$1);
+return fexpr__45515(this__4381__auto____$1);
 })();
 self__.__hash = h__4243__auto____$1;
 
@@ -134,10 +134,10 @@ var ___$1 = this;
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword("clojure.test.check.properties","error","clojure.test.check.properties/error",483933635),self__.error], null);
 });
 
-clojure.test.check.properties.ErrorResult.prototype.cljs$core$IEquiv$_equiv$arity$2 = (function (this45438,other45439){
+clojure.test.check.properties.ErrorResult.prototype.cljs$core$IEquiv$_equiv$arity$2 = (function (this45500,other45501){
 var self__ = this;
-var this45438__$1 = this;
-return (((!((other45439 == null)))) && ((this45438__$1.constructor === other45439.constructor)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this45438__$1.error,other45439.error)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this45438__$1.__extmap,other45439.__extmap)));
+var this45500__$1 = this;
+return (((!((other45501 == null)))) && ((this45500__$1.constructor === other45501.constructor)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this45500__$1.error,other45501.error)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this45500__$1.__extmap,other45501.__extmap)));
 });
 
 clojure.test.check.properties.ErrorResult.prototype.cljs$core$IMap$_dissoc$arity$2 = (function (this__4394__auto__,k__4395__auto__){
@@ -150,18 +150,18 @@ return (new clojure.test.check.properties.ErrorResult(self__.error,self__.__meta
 }
 });
 
-clojure.test.check.properties.ErrorResult.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4392__auto__,k__4393__auto__,G__45436){
+clojure.test.check.properties.ErrorResult.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4392__auto__,k__4393__auto__,G__45498){
 var self__ = this;
 var this__4392__auto____$1 = this;
-var pred__45450 = cljs.core.keyword_identical_QMARK_;
-var expr__45451 = k__4393__auto__;
-if(cljs.core.truth_((function (){var G__45453 = new cljs.core.Keyword(null,"error","error",-978969032);
-var G__45454 = expr__45451;
-return (pred__45450.cljs$core$IFn$_invoke$arity$2 ? pred__45450.cljs$core$IFn$_invoke$arity$2(G__45453,G__45454) : pred__45450.call(null,G__45453,G__45454));
+var pred__45516 = cljs.core.keyword_identical_QMARK_;
+var expr__45517 = k__4393__auto__;
+if(cljs.core.truth_((function (){var G__45519 = new cljs.core.Keyword(null,"error","error",-978969032);
+var G__45520 = expr__45517;
+return (pred__45516.cljs$core$IFn$_invoke$arity$2 ? pred__45516.cljs$core$IFn$_invoke$arity$2(G__45519,G__45520) : pred__45516.call(null,G__45519,G__45520));
 })())){
-return (new clojure.test.check.properties.ErrorResult(G__45436,self__.__meta,self__.__extmap,null));
+return (new clojure.test.check.properties.ErrorResult(G__45498,self__.__meta,self__.__extmap,null));
 } else {
-return (new clojure.test.check.properties.ErrorResult(self__.error,self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4393__auto__,G__45436),null));
+return (new clojure.test.check.properties.ErrorResult(self__.error,self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4393__auto__,G__45498),null));
 }
 });
 
@@ -171,10 +171,10 @@ var this__4397__auto____$1 = this;
 return cljs.core.seq(cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.MapEntry(new cljs.core.Keyword(null,"error","error",-978969032),self__.error,null))], null),self__.__extmap));
 });
 
-clojure.test.check.properties.ErrorResult.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__4384__auto__,G__45436){
+clojure.test.check.properties.ErrorResult.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__4384__auto__,G__45498){
 var self__ = this;
 var this__4384__auto____$1 = this;
-return (new clojure.test.check.properties.ErrorResult(self__.error,G__45436,self__.__extmap,self__.__hash));
+return (new clojure.test.check.properties.ErrorResult(self__.error,G__45498,self__.__extmap,self__.__hash));
 });
 
 clojure.test.check.properties.ErrorResult.prototype.cljs$core$ICollection$_conj$arity$2 = (function (this__4390__auto__,entry__4391__auto__){
@@ -211,15 +211,15 @@ return (new clojure.test.check.properties.ErrorResult(error,null,null,null));
 /**
  * Factory function for clojure.test.check.properties/ErrorResult, taking a map of keywords to field values.
  */
-clojure.test.check.properties.map__GT_ErrorResult = (function clojure$test$check$properties$map__GT_ErrorResult(G__45440){
-var extmap__4424__auto__ = (function (){var G__45459 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__45440,new cljs.core.Keyword(null,"error","error",-978969032));
-if(cljs.core.record_QMARK_(G__45440)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__45459);
+clojure.test.check.properties.map__GT_ErrorResult = (function clojure$test$check$properties$map__GT_ErrorResult(G__45502){
+var extmap__4424__auto__ = (function (){var G__45524 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__45502,new cljs.core.Keyword(null,"error","error",-978969032));
+if(cljs.core.record_QMARK_(G__45502)){
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__45524);
 } else {
-return G__45459;
+return G__45524;
 }
 })();
-return (new clojure.test.check.properties.ErrorResult(new cljs.core.Keyword(null,"error","error",-978969032).cljs$core$IFn$_invoke$arity$1(G__45440),null,cljs.core.not_empty(extmap__4424__auto__),null));
+return (new clojure.test.check.properties.ErrorResult(new cljs.core.Keyword(null,"error","error",-978969032).cljs$core$IFn$_invoke$arity$1(G__45502),null,cljs.core.not_empty(extmap__4424__auto__),null));
 });
 
 clojure.test.check.properties.exception_QMARK_ = (function clojure$test$check$properties$exception_QMARK_(x){
@@ -233,7 +233,7 @@ throw ret;
 } else {
 return ret;
 }
-}catch (e45460){var ex = e45460;
+}catch (e45525){var ex = e45525;
 return clojure.test.check.properties.__GT_ErrorResult(ex);
 }})();
 return new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result,new cljs.core.Keyword(null,"function","function",-2127255473),function$,new cljs.core.Keyword(null,"args","args",1315556576),args], null);

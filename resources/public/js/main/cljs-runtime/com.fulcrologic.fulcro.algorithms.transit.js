@@ -53,8 +53,8 @@ return (new com.fulcrologic.fulcro.algorithms.transit.TempIdHandler());
  *   - `opts`: (optional) options to pass to `cognitect.transit/writer` (such as handlers).
  */
 com.fulcrologic.fulcro.algorithms.transit.writer = (function com$fulcrologic$fulcro$algorithms$transit$writer(var_args){
-var G__51793 = arguments.length;
-switch (G__51793) {
+var G__50524 = arguments.length;
+switch (G__50524) {
 case 0:
 return com.fulcrologic.fulcro.algorithms.transit.writer.cljs$core$IFn$_invoke$arity$0();
 
@@ -85,8 +85,8 @@ com.fulcrologic.fulcro.algorithms.transit.writer.cljs$lang$maxFixedArity = 1;
  *   - `opts`: (optional) options to pass to `cognitect.transit/reader` (such as data type handlers).
  */
 com.fulcrologic.fulcro.algorithms.transit.reader = (function com$fulcrologic$fulcro$algorithms$transit$reader(var_args){
-var G__51809 = arguments.length;
-switch (G__51809) {
+var G__50528 = arguments.length;
+switch (G__50528) {
 case 0:
 return com.fulcrologic.fulcro.algorithms.transit.reader.cljs$core$IFn$_invoke$arity$0();
 
@@ -121,7 +121,7 @@ com.fulcrologic.fulcro.algorithms.transit.serializable_QMARK_ = (function com$fu
 try{com.fulcrologic.fulcro.algorithms.transit.writer.cljs$core$IFn$_invoke$arity$0().write(v);
 
 return true;
-}catch (e51819){var e = e51819;
+}catch (e50534){var e = e50534;
 return false;
 }});
 /**
@@ -131,8 +131,8 @@ return false;
  *   - `opts`: (optional) Options to send when creating a `writer`.
  */
 com.fulcrologic.fulcro.algorithms.transit.transit_clj__GT_str = (function com$fulcrologic$fulcro$algorithms$transit$transit_clj__GT_str(var_args){
-var G__51823 = arguments.length;
-switch (G__51823) {
+var G__50536 = arguments.length;
+switch (G__50536) {
 case 1:
 return com.fulcrologic.fulcro.algorithms.transit.transit_clj__GT_str.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -161,8 +161,8 @@ com.fulcrologic.fulcro.algorithms.transit.transit_clj__GT_str.cljs$lang$maxFixed
  * Use transit to decode a string into a clj data structure. Useful for decoding initial app state when starting from a server-side rendering.
  */
 com.fulcrologic.fulcro.algorithms.transit.transit_str__GT_clj = (function com$fulcrologic$fulcro$algorithms$transit$transit_str__GT_clj(var_args){
-var G__51834 = arguments.length;
-switch (G__51834) {
+var G__50538 = arguments.length;
+switch (G__50538) {
 case 1:
 return com.fulcrologic.fulcro.algorithms.transit.transit_str__GT_clj.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
