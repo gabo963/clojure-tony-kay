@@ -1,0 +1,98 @@
+Downloading: thheller/shadow-cljs/2.8.52/shadow-cljs-2.8.52.pom from clojars
+Downloading: binaryage/devtools/0.9.10/devtools-0.9.10.pom from clojars
+Downloading: org/clojure/core.async/0.4.500/core.async-0.4.500.pom from central
+Downloading: com/google/javascript/closure-compiler-unshaded/v20190819/closure-compiler-unshaded-v20190819.pom from central
+Downloading: org/clojure/tools.cli/0.3.7/tools.cli-0.3.7.pom from central
+Downloading: com/google/javascript/closure-compiler-main/v20190819/closure-compiler-main-v20190819.pom from central
+Downloading: org/jboss/xnio/xnio-nio/3.7.3.Final/xnio-nio-3.7.3.Final.pom from central
+Downloading: org/clojure/google-closure-library/0.0-20190213-2033d5d9/google-closure-library-0.0-20190213-2033d5d9.pom from central
+Downloading: io/undertow/undertow-core/2.0.25.Final/undertow-core-2.0.25.Final.pom from central
+Downloading: org/jboss/xnio/xnio-api/3.7.3.Final/xnio-api-3.7.3.Final.pom from central
+Downloading: org/jboss/threads/jboss-threads/2.3.2.Final/jboss-threads-2.3.2.Final.pom from central
+Downloading: org/jboss/xnio/xnio-all/3.7.3.Final/xnio-all-3.7.3.Final.pom from central
+Downloading: io/undertow/undertow-parent/2.0.25.Final/undertow-parent-2.0.25.Final.pom from central
+Downloading: com/google/javascript/closure-compiler-parent/v20190819/closure-compiler-parent-v20190819.pom from central
+Downloading: nrepl/nrepl/0.6.0/nrepl-0.6.0.pom from clojars
+Downloading: thheller/shadow-client/1.3.2/shadow-client-1.3.2.pom from clojars
+Downloading: ring/ring-core/1.7.1/ring-core-1.7.1.pom from clojars
+Downloading: fipp/fipp/0.6.18/fipp-0.6.18.pom from clojars
+Downloading: binaryage/env-config/0.2.2/env-config-0.2.2.pom from clojars
+Downloading: thheller/shadow-cljsjs/0.0.20/shadow-cljsjs-0.0.20.pom from clojars
+Downloading: org/clojure/tools.analyzer.jvm/0.7.2/tools.analyzer.jvm-0.7.2.pom from central
+Downloading: com/google/javascript/closure-compiler-externs/v20190819/closure-compiler-externs-v20190819.pom from central
+Downloading: org/clojure/google-closure-library-third-party/0.0-20190213-2033d5d9/google-closure-library-third-party-0.0-20190213-2033d5d9.pom from central
+Downloading: org/jboss/logging/jboss-logging/3.4.0.Final/jboss-logging-3.4.0.Final.pom from central
+Downloading: org/wildfly/client/wildfly-client-config/1.0.0.Final/wildfly-client-config-1.0.0.Final.pom from central
+Downloading: org/wildfly/common/wildfly-common/1.3.0.Final/wildfly-common-1.3.0.Final.pom from central
+Downloading: commons-fileupload/commons-fileupload/1.3.3/commons-fileupload-1.3.3.pom from central
+Downloading: org/jboss/jboss-parent/24/jboss-parent-24.pom from central
+Downloading: org/clojure/core.rrb-vector/0.0.14/core.rrb-vector-0.0.14.pom from central
+Downloading: org/apache/commons/commons-parent/41/commons-parent-41.pom from central
+Downloading: commons-codec/commons-codec/1.11/commons-codec-1.11.pom from central
+Downloading: org/clojure/tools.analyzer.jvm/0.7.2/tools.analyzer.jvm-0.7.2.jar from central
+Downloading: commons-codec/commons-codec/1.11/commons-codec-1.11.jar from central
+Downloading: commons-fileupload/commons-fileupload/1.3.3/commons-fileupload-1.3.3.jar from central
+Downloading: org/wildfly/common/wildfly-common/1.3.0.Final/wildfly-common-1.3.0.Final.jar from central
+Downloading: org/clojure/tools.cli/0.3.7/tools.cli-0.3.7.jar from central
+Downloading: io/undertow/undertow-core/2.0.25.Final/undertow-core-2.0.25.Final.jar from central
+Downloading: org/jboss/logging/jboss-logging/3.4.0.Final/jboss-logging-3.4.0.Final.jar from central
+Downloading: org/clojure/google-closure-library/0.0-20190213-2033d5d9/google-closure-library-0.0-20190213-2033d5d9.jar from central
+Downloading: org/clojure/google-closure-library-third-party/0.0-20190213-2033d5d9/google-closure-library-third-party-0.0-20190213-2033d5d9.jar from central
+Downloading: com/google/javascript/closure-compiler-externs/v20190819/closure-compiler-externs-v20190819.jar from central
+Downloading: org/jboss/xnio/xnio-nio/3.7.3.Final/xnio-nio-3.7.3.Final.jar from central
+Downloading: binaryage/env-config/0.2.2/env-config-0.2.2.jar from clojars
+Downloading: org/jboss/threads/jboss-threads/2.3.2.Final/jboss-threads-2.3.2.Final.jar from central
+Downloading: thheller/shadow-cljsjs/0.0.20/shadow-cljsjs-0.0.20.jar from clojars
+Downloading: fipp/fipp/0.6.18/fipp-0.6.18.jar from clojars
+Downloading: org/clojure/core.rrb-vector/0.0.14/core.rrb-vector-0.0.14.jar from central
+Downloading: org/wildfly/client/wildfly-client-config/1.0.0.Final/wildfly-client-config-1.0.0.Final.jar from central
+Downloading: ring/ring-codec/1.1.1/ring-codec-1.1.1.jar from clojars
+Downloading: org/jboss/xnio/xnio-api/3.7.3.Final/xnio-api-3.7.3.Final.jar from central
+Downloading: thheller/shadow-client/1.3.2/shadow-client-1.3.2.jar from clojars
+Downloading: binaryage/devtools/0.9.10/devtools-0.9.10.jar from clojars
+Downloading: thheller/shadow-cljs/2.8.52/shadow-cljs-2.8.52.jar from clojars
+Downloading: org/clojure/core.async/0.4.500/core.async-0.4.500.jar from central
+Downloading: nrepl/nrepl/0.6.0/nrepl-0.6.0.jar from clojars
+Downloading: com/google/javascript/closure-compiler-unshaded/v20190819/closure-compiler-unshaded-v20190819.jar from central
+Downloading: ring/ring-core/1.7.1/ring-core-1.7.1.jar from clojars
+WARNING: update-vals already refers to: #'clojure.core/update-vals in namespace: clojure.tools.analyzer.utils, being replaced by: #'clojure.tools.analyzer.utils/update-vals
+WARNING: update-keys already refers to: #'clojure.core/update-keys in namespace: clojure.tools.analyzer.utils, being replaced by: #'clojure.tools.analyzer.utils/update-keys
+WARNING: update-vals already refers to: #'clojure.core/update-vals in namespace: clojure.tools.analyzer, being replaced by: #'clojure.tools.analyzer.utils/update-vals
+WARNING: update-keys already refers to: #'clojure.core/update-keys in namespace: clojure.tools.analyzer, being replaced by: #'clojure.tools.analyzer.utils/update-keys
+WARNING: update-vals already refers to: #'clojure.core/update-vals in namespace: clojure.tools.analyzer.passes, being replaced by: #'clojure.tools.analyzer.utils/update-vals
+WARNING: update-vals already refers to: #'clojure.core/update-vals in namespace: clojure.tools.analyzer.passes.uniquify, being replaced by: #'clojure.tools.analyzer.utils/update-vals
+shadow-cljs - HTTP server available at http://localhost:8000
+WARNING: abs already refers to: #'clojure.core/abs in namespace: clojure.test.check.generators, being replaced by: #'clojure.test.check.generators/abs
+WARNING: abs already refers to: #'clojure.core/abs in namespace: taoensso.encore, being replaced by: #'taoensso.encore/abs
+WARNING: update-keys already refers to: #'clojure.core/update-keys in namespace: io.aviso.exception, being replaced by: #'io.aviso.exception/update-keys
+Exception in thread "async-dispatch-5" java.lang.RuntimeException: java.lang.Exception: Not supported: class java.lang.UnsupportedOperationException
+	at com.cognitect.transit.impl.WriterFactory$1.write(WriterFactory.java:65)
+	at cognitect.transit$write.invokeStatic(transit.clj:167)
+	at cognitect.transit$write.invoke(transit.clj:164)
+	at shadow.cljs.devtools.server.common$fn__15647$fn__15648.invoke(common.clj:59)
+	at clojure.core$map$fn__5931$fn__5932.invoke(core.clj:2759)
+	at clojure.core.async.impl.channels$chan$fn__1710.invoke(channels.clj:300)
+	at clojure.core.async.impl.channels.ManyToManyChannel.put_BANG_(channels.clj:83)
+	at clojure.core.async.impl.ioc_macros$put_BANG_.invokeStatic(ioc_macros.clj:992)
+	at clojure.core.async.impl.ioc_macros$put_BANG_.invoke(ioc_macros.clj:991)
+	at shadow.cljs.devtools.server.web.api$eval36987$fn__36990$fn__37044$state_machine__6734__auto____37063$fn__37065.invoke(api.clj:83)
+	at shadow.cljs.devtools.server.web.api$eval36987$fn__36990$fn__37044$state_machine__6734__auto____37063.invoke(api.clj:80)
+	at clojure.core.async.impl.ioc_macros$run_state_machine.invokeStatic(ioc_macros.clj:973)
+	at clojure.core.async.impl.ioc_macros$run_state_machine.invoke(ioc_macros.clj:972)
+	at clojure.core.async.impl.ioc_macros$run_state_machine_wrapped.invokeStatic(ioc_macros.clj:977)
+	at clojure.core.async.impl.ioc_macros$run_state_machine_wrapped.invoke(ioc_macros.clj:975)
+	at clojure.core.async.impl.ioc_macros$take_BANG_$fn__6752.invoke(ioc_macros.clj:986)
+	at clojure.core.async.impl.channels.ManyToManyChannel$fn__1616$fn__1617.invoke(channels.clj:95)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.lang.Exception: Not supported: class java.lang.UnsupportedOperationException
+	at com.cognitect.transit.impl.AbstractEmitter.marshal(AbstractEmitter.java:194)
+	at com.cognitect.transit.impl.JsonEmitter.emitMap(JsonEmitter.java:171)
+	at com.cognitect.transit.impl.AbstractEmitter.emitMap(AbstractEmitter.java:85)
+	at com.cognitect.transit.impl.AbstractEmitter.marshal(AbstractEmitter.java:184)
+	at com.cognitect.transit.impl.AbstractEmitter.marshalTop(AbstractEmitter.java:211)
+	at com.cognitect.transit.impl.JsonEmitter.emit(JsonEmitter.java:41)
+	at com.cognitect.transit.impl.WriterFactory$1.write(WriterFactory.java:62)
+	... 20 more
