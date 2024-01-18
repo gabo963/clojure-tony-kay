@@ -1,6 +1,4 @@
 goog.provide('com.fulcrologic.fulcro.algorithms.lookup');
-goog.require('cljs.core');
-goog.require('taoensso.timbre');
 /**
  * Get the current value of a particular Fulcro plugin algorithm.  These are set by default and can be overridden
  *   when you create your fulcro app.
@@ -9,9 +7,8 @@ goog.require('taoensso.timbre');
  *   `k` - the algorithm to obtain. This can be a plain keyword or a symbol of the algorithm desired.
  * 
  *   Supported algorithms that can be obtained/overridden in Fulcro (check the source of app/fulcro-app if you suspect this is out
- *   of date):
+ *   of date, which is likely is):
  * 
- *   - `:tx!` - Internal implementation of transaction submission. Default `app/default-tx!`
  *   - `:global-eql-transform` - A `(fn [tx] tx')` that is applied to all outgoing requests (when using default `tx!`).
  *   Defaults to stripping things like `:ui/*` and form state config joins.
  *   - `:remote-error?` - A `(fn [result] boolean)` that defines what a remote error is.
@@ -25,16 +22,20 @@ goog.require('taoensso.timbre');
  *   - `:drop-component!` - The algorithm that removes a component from indexes when it unmounts.
  *   - `:props-middleware` - Middleware that can modify `props` for all components.
  *   - `:render-middleware` - Middlware that wraps all `render` methods of `defsc` components.
+ *   - `:before-render - A function `(fn [app RootClass])` that is called after a transaction completes, just BEFORE
+ *  rendering. This function is allowed to affect the state atom to do things like compute dynamic derived state. Prefer
+ *  this over an atom watch, since it will be called less frequently that an atom watch. This will be called EVEN IF
+ *  Fulcro is running "headless". So, it can be thought of as `after-transaction`.
  * 
  *   Returns nil if the algorithm is currently undefined.
  *   
  */
-com.fulcrologic.fulcro.algorithms.lookup.app_algorithm = (function com$fulcrologic$fulcro$algorithms$lookup$app_algorithm(p__50458,k){
-var map__50459 = p__50458;
-var map__50459__$1 = (((((!((map__50459 == null))))?(((((map__50459.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__50459.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__50459):map__50459);
-var app__$1 = map__50459__$1;
-var algorithms = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50459__$1,new cljs.core.Keyword("com.fulcrologic.fulcro.application","algorithms","com.fulcrologic.fulcro.application/algorithms",-397334538));
-var temp__5804__auto__ = ((((typeof k === 'string') || ((k instanceof cljs.core.Keyword)) || ((k instanceof cljs.core.Symbol))))?cljs.core.keyword.cljs$core$IFn$_invoke$arity$2("com.fulcrologic.fulcro.algorithm",cljs.core.name(k)):null);
+com.fulcrologic.fulcro.algorithms.lookup.app_algorithm = (function com$fulcrologic$fulcro$algorithms$lookup$app_algorithm(p__57717,k){
+var map__57718 = p__57717;
+var map__57718__$1 = cljs.core.__destructure_map(map__57718);
+var app__$1 = map__57718__$1;
+var algorithms = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__57718__$1,new cljs.core.Keyword("com.fulcrologic.fulcro.application","algorithms","com.fulcrologic.fulcro.application/algorithms",-397334538));
+var temp__5804__auto__ = ((((typeof k === 'string') || ((((k instanceof cljs.core.Keyword)) || ((k instanceof cljs.core.Symbol))))))?cljs.core.keyword.cljs$core$IFn$_invoke$arity$2("com.fulcrologic.fulcro.algorithm",cljs.core.name(k)):null);
 if(cljs.core.truth_(temp__5804__auto__)){
 var nm = temp__5804__auto__;
 return cljs.core.get_in.cljs$core$IFn$_invoke$arity$3(app__$1,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("com.fulcrologic.fulcro.application","algorithms","com.fulcrologic.fulcro.application/algorithms",-397334538),nm], null),null);
