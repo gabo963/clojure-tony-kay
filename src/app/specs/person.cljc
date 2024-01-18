@@ -1,4 +1,4 @@
-(ns app.spec.person
+(ns app.specs.person
   (:require
     [clojure.spec.alpha :as s]))
 
@@ -6,7 +6,7 @@
 (s/def ::name string?)
 (s/def ::age pos-int?)
 
-(s/def :app.spec.person/person
+(s/def :app.specs.person
   (s/keys
     :req [::id ::name ::age]
     :opt [::cars]))

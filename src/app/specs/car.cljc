@@ -1,10 +1,11 @@
-(ns app.spec.car
+(ns app.specs.car
   (:require
     [clojure.spec.alpha :as s]))
 
 (s/def ::id int?)
 (s/def ::model string?)
+(s/def ::make string? )
 
-(s/def :app.spec.car/car
+(s/def :app.specs.car
   (s/keys
-    :req [::id ::model]))
+    :req [::id ::model ::make]))
